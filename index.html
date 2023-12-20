@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+    <link rel="icon" href=""/>
+    <style>
+      body{
+        background-image: linear-gradient(to right,rgb(245, 245, 166),rgb(250, 205, 247));
+      }
+      .menudiv{
+        background-color: rgb(248, 112, 157);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;  
+        align-items: center;  
+        font-size: 20px;
+        font-weight: bold;
+    }
+         @media only screen and (min-width: 50px) and  (max-width: 320px) {
+    .menudiv{
+        background-color: rgb(255, 0, 85);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;  
+        align-items: center;  
+    }
+  }
+        @media only screen and (min-width: 320px) and  (max-width: 480px) {
+    .menudiv{
+        background-color: rgb(255, 0, 85);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;  
+        align-items: center;  
+    }
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px){
+    .menudiv{
+        background-color: rgb(255, 0, 85);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;   
+        align-items: center;   
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width:1200px){
+    .menudiv{
+        background-color: rgb(247, 171, 144);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;    
+        align-items: center;  
+    }
+  }
+
+  @media only screen and (max-width:2550px){
+    .menudiv{
+        background-color: rgb(255,113,113);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;   
+        align-items: center;  
+        color: black; 
+    font-family:"Georgia Pro", serif; 
+  font-style: normal; 
+  font-weight: bold; 
+  text-decoration: none; 
+  font-size: 14pt; 
+    }
+  }
+
+
+
+  @media only screen and (min-width:115px){
+    .section2,.sections {
+      position: absolute;
+    top:5.5%;
+    right:0.5%;
+    
+    }
+  }
+  .sections{
+    text-align: center;
+    display: inline;  
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: #181818; 
+  font-family:Calibri, sans-serif; 
+  font-style: normal; 
+  font-weight: bold; 
+  text-decoration: none; 
+  font-size: 39.5pt;
+   
+
+  }
+
+  .section2{
+    float: right;  
+    display: inline;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 50%; */
+  }
+ #img1{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top:4%;
+    right:0.5%;
+    
+  } 
+  .desc{
+    position: relative;
+    top:150px;
+    left:60px;
+    color: #181818; 
+  font-family:Calibri, sans-serif; 
+  font-style: normal; 
+  font-weight: normal; 
+  text-decoration: none;
+  font-size: 13.5pt; 
+  margin:0pt; 
+  }
+ 
+  a{
+    text-decoration: none;
+    color: black;
+  }
+    </style>
+    <!-- <link rel="stylesheet" href="./index.css"/> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+  <div class="body">
+    <div class="menudiv">
+      <a target="_self" href="./new.html">Home</a>
+      <a>Order</a>
+      <a>Food</a>
+      <a>Restaurant</a>
+      <a>Testimonials<a1>
+      <a>Contact Us</a>
+      <a><img src="./images/menu-bar.png" width="40px" height="40px"/></a>
+  </div>   
+    
+<div class="sections">
+   LOREM IPSUM
+
+   
+</div>
+
+<pre class="desc">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+id est vitae dolor rhoncus tristique. Maecenas metus quam,
+rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+Sed pulvinar, massa ac porta viverra.
+</pre>
+      <div class="section2">
+          <img id="img1" src="./images/pexels-robin-stickel-70497.jpg"/>
+      </div>
+
+  </div>
+    
+    
+</body>
+</html>
